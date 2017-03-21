@@ -187,7 +187,7 @@ void TKLCD_Serial::send(uint8_t, uint8_t) {
 
 
 void TKLCD_Local::begin() {
-  LiquidCrystal::begin(DEFAULT_SIZE_COL, DEFAULT_SIZE_COL);
+  LiquidCrystal::begin(DEFAULT_SIZE_COL, DEFAULT_SIZE_ROWS);
   setBrightness(DEFAULT_BRIGHTNESS);
   setContrast(DEFAULT_CONTRAST);
   
